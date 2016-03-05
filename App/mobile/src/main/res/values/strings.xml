@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Represent</string>
+    <string name="enter_zip_text_view">ENTER ZIP:</string>
+    <string name="enter_zip_button">GO</string>
+</resources>

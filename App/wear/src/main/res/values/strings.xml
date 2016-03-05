@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Represent</string>
+    <string name="a">Representative</string>
+    <string name="b">Mike Honda (D)</string>
+    <string name="c">Senator</string>
+    <string name="d">Barbara Boxer (D)</string>
+    <string name="e">Senator</string>
+    <string name="f">Dianne Feinstein (D)</string>
+    <string name="g">2012 Vote - Santa Clara County, CA</string>
+    <string name="g2">2012 Presidential Vote - Alameda County, CA</string>
+    <string name="h" formatted="false" >59.3% Obama, 38.3% Romney </string>
+    <string name="custom_fragment_text">Custom Fragment Text</string>
+
+</resources>

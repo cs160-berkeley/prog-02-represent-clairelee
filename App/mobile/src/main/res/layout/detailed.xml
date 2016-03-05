@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#56CCF2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="back"
+                        android:id="@+id/back_button"
+                        android:onClick="onBackButton"
+                        android:textColor="#F2F2F2"
+                        android:layout_marginLeft="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="BARBARA BOXER D"
+                        android:textColor="#F2F2F2"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="left"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/boxer"
+                    android:layout_margin="10dp"
+                    android:contentDescription="Boxer" />
+
+            </LinearLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:rowCount="5"
+                android:columnCount="2"
+                >
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="TERM ENDS:"
+                    android:textColor="#fff"
+                    android:background="#F58A8A"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="January 2017"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_gravity="fill_horizontal"
+                    android:background="#F2F2F2"
+                    android:padding="10dp"
+                    android:layout_marginRight="5dp"/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="COMMITTEES SERVING:"
+                    android:textColor="#fff"
+                    android:background="#F58A8A"
+                    android:padding="10dp"
+                    android:layout_columnSpan="2"
+                    android:layout_gravity="fill_horizontal"/>
+
+                <TextView
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="
+        Environment and Public Works
+        Ethics
+        Foreign Relations"
+                    android:layout_columnSpan="2"
+                    android:background="#F2F2F2"
+                    android:padding="10dp"
+                    android:layout_gravity="fill_horizontal"/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#fff"
+                    android:background="#F58A8A"
+                    android:padding="10dp"
+                    android:text="BILLS SIGNED:"
+                    android:layout_columnSpan="2"
+                    android:layout_gravity="fill_horizontal"/>
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="
+        Feb. 2016: Female Veteran Suicide Prevention Act
+        Feb. 2016: Tule Lake National Historic Site Establishment Act of 2015
+        Feb. 2016: Female Veteran Suicide Prevention Act"
+                    android:layout_columnSpan="2"
+                    android:layout_gravity="fill_horizontal"
+                    android:background="#F2F2F2"
+                    android:padding="10dp"
+                    />
+
+            </GridLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
