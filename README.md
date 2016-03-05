@@ -4,11 +4,11 @@ Briefly describe your app here.
 
 ## Authors
 
-FirstName LastName ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Claire Lee ([lee.claire@berkeley.edu](mailto:lee.claire@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See [YouTube] (https://www.youtube.com/watch?v=JFIOdWcdMwM)
 
 ## Screenshots
 
@@ -17,4 +17,5 @@ See [your demo video title here] (https://link_to_your_video)
 ## Acknowledgments
 
 * Hat tip to anyone who's code was used
-* Any other support
+* CS 160 Staff
+* Google
