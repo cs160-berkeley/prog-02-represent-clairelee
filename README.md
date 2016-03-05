@@ -1,6 +1,6 @@
 # PROG 02: Represent!
 
-Briefly describe your app here.
+Users can enter a zip code or use their current location to find the Congress representatives for that location. 
 
 ## Authors
 
