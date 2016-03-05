@@ -37,16 +37,21 @@ public class SampleGridPagerAdapter extends FragmentGridPagerAdapter {
 
         mRows = new ArrayList<SampleGridPagerAdapter.Row>();
 
-        if (zipCode != null) {
-            mRows.add(new Row(cardFragment(R.string.a, R.string.b),
-                    cardFragment(R.string.c, R.string.d),
-                    cardFragment(R.string.e, R.string.f)));
-            if (zipCode.equals("94704")) {
-                mRows.add(new Row(cardFragment(R.string.g2, R.string.h)));
-            } else {
-                mRows.add(new Row(cardFragment(R.string.g, R.string.h)));
-            }
-        }
+        mRows.add(new Row(cardFragment(R.string.a, R.string.b),
+                cardFragment(R.string.c, R.string.d),
+                cardFragment(R.string.e, R.string.f)));
+        mRows.add(new Row(cardFragment(R.string.g, R.string.h)));
+
+//        if (zipCode != null) {
+//            mRows.add(new Row(cardFragment(R.string.a, R.string.b),
+//                    cardFragment(R.string.c, R.string.d),
+//                    cardFragment(R.string.e, R.string.f)));
+//            if (zipCode.equals("94704")) {
+//                mRows.add(new Row(cardFragment(R.string.g2, R.string.h)));
+//            } else {
+//                mRows.add(new Row(cardFragment(R.string.g, R.string.h)));
+//            }
+//        }
     }
 
 
@@ -56,7 +61,6 @@ public class SampleGridPagerAdapter extends FragmentGridPagerAdapter {
                 CardFragment.create(res.getText(titleRes), res.getText(textRes));
         return fragment;
     }
-
     /** A convenient container for a row of fragments. */
     private class Row {
         final List<Fragment> columns = new ArrayList<Fragment>();
