@@ -6,9 +6,11 @@
     <string name="d">Barbara Boxer (D)</string>
     <string name="e">Senator</string>
     <string name="f">Dianne Feinstein (D)</string>
-    <string name="g">2012 Vote - Santa Clara County, CA</string>
-    <string name="g2">2012 Presidential Vote - Alameda County, CA</string>
-    <string name="h" formatted="false" >59.3% Obama, 38.3% Romney </string>
+    <string name="g">Senator</string>
+    <string name="h">Dianne Feinstein (D)</string>
+    <string name="i">2012 Vote - Santa Clara County, CA</string>
+    <string name="i2">2012 Presidential Vote - Alameda County, CA</string>
+    <string name="j" formatted="false" >59.3% Obama, 38.3% Romney </string>
     <string name="custom_fragment_text">Custom Fragment Text</string>
 
 </resources>

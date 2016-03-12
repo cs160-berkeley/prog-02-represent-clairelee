@@ -11,9 +11,86 @@
     tools:deviceIds="wear">
 
     <android.support.wearable.view.GridViewPager
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:keepScreenOn="true" />
+
+    <android.support.wearable.view.DotsPageIndicator
+        android:id="@+id/page_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom">
+    </android.support.wearable.view.DotsPageIndicator>
+
+
+    <!--<TextView-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="@string/a"-->
+        <!--android:id="@+id/a"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="@string/b"-->
+        <!--android:id="@+id/b"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="@string/c"-->
+        <!--android:id="@+id/c"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="@string/d"-->
+        <!--android:id="@+id/d"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="@string/e"-->
+        <!--android:id="@+id/e"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="@string/f"-->
+        <!--android:id="@+id/f"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="@string/g"-->
+        <!--android:id="@+id/g"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="@string/i2"-->
+        <!--android:id="@+id/i2"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="@string/h"-->
+        <!--android:id="@+id/h"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="@string/j"-->
+        <!--android:id="@+id/j"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="@string/i"-->
+        <!--android:id="@+id/i"-->
+        <!--/>-->
+
+
 
 </android.support.wearable.view.BoxInsetLayout>

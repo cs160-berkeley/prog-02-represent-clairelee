@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#56CCF2">
+    android:background="#000080">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -30,17 +30,39 @@
                         android:text="back"
                         android:id="@+id/back_button"
                         android:onClick="onBackButton"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="8dp"
+                        android:textColor="#fff"
+                        android:background="#F58A8A"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:textColor="#F2F2F2"
-                        android:layout_marginLeft="10dp" />
+                        android:text="Senator (D)"
+                        android:id="@+id/party"
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="end"/>
+
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:text="BARBARA BOXER D"
+                        android:text="BARBARA BOXER"
+                        android:textAllCaps="true"
+                        android:id="@+id/name"
+
                         android:textColor="#F2F2F2"
+                        android:layout_marginTop="5dp"
                         android:layout_marginLeft="10dp"
-                        android:gravity="left"/>
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:layout_marginBottom="15dp"/>
 
                 </LinearLayout>
 
@@ -48,6 +70,7 @@
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:src="@drawable/boxer"
+                    android:id="@+id/pic"
                     android:layout_margin="10dp"
                     android:contentDescription="Boxer" />
 
@@ -77,6 +100,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="January 2017"
+                    android:id="@+id/termEnds"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:layout_gravity="fill_horizontal"
                     android:background="#F2F2F2"
@@ -107,6 +131,7 @@
         Environment and Public Works
         Ethics
         Foreign Relations"
+                    android:id="@+id/committees"
                     android:layout_columnSpan="2"
                     android:background="#F2F2F2"
                     android:padding="10dp"
@@ -131,6 +156,7 @@
                     android:layout_marginRight="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/bills"
                     android:text="
         Feb. 2016: Female Veteran Suicide Prevention Act
         Feb. 2016: Tule Lake National Historic Site Establishment Act of 2015

@@ -48,21 +48,25 @@ public class PhoneToWatchService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
         // Which cat do we want to feed? Grab this info from INTENT
         // which was passed over when we called startService
-        Bundle extras = intent.getExtras();
-        //final String from = extras.getString("from"); // Claire changed
-        final String zipCode = extras.getString("zipCode"); // Claire changed
-
-        // Send the message with the cat name
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                //first, connect to the apiclient
-                mApiClient.connect();
-                //now that you're connected, send a massage with the cat name
-                //sendMessage("/" + from, zipCode); // changed this too I guess
-            }
-        }).start();
-
+//        Bundle extras = intent.getExtras();
+//        final String mLat = extras.getString("mLat"); // Claire changed
+//        final String mLon = extras.getString("mLon"); // Claire changed
+//        final String zipCode = extras.getString("zipCode"); // Claire changed
+//
+//        // Send the message with the cat name
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                //first, connect to the apiclient
+//                mApiClient.connect();
+//                //now that you're connected, send a massage with the cat name
+//                Log.i("tag", "phone 2 watch");
+//                Log.i("phone2watch", ""+zipCode); //confirms that zipCode is saved properly
+//                sendMessage("/"+ zipCode, zipCode);
+//                //sendMessage("/" + from, zipCode); // changed this too I guess
+//            }
+//        }).start();
+//
         return START_STICKY;
     }
 

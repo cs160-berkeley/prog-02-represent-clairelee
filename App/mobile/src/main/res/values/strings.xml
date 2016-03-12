@@ -2,4 +2,24 @@
     <string name="app_name">Represent</string>
     <string name="enter_zip_text_view">ENTER ZIP:</string>
     <string name="enter_zip_button">GO</string>
+    <string name="type1">REPRESENTATIVE</string>
+    <string name="name1">MIKE HONDA (D)</string>
+    <string name="email1">Email: mikehonda@ca.gov</string>
+    <string name="website1">Website: http://mikehonda.com</string>
+    <string name="tweet1">Tweet will go here</string>
+    <string name="type2">SENATOR</string>
+    <string name="name2">BARBARA BOXER (D)</string>
+    <string name="email2">Email: bbox@ca.gov</string>
+    <string name="website2">Website: http://barbaraboxer.com</string>
+    <string name="tweet2">Tweet will go here</string>
+    <string name="type3">SENATOR</string>
+    <string name="name3">DIANNE FEINSTEIN (D)</string>
+    <string name="email3">Email: dfein@ca.gov</string>
+    <string name="website3">Website: http://feinstein.com</string>
+    <string name="tweet3">Tweet will go here</string>
+    <string name="type4"></string>
+    <string name="name4"></string>
+    <string name="email4"></string>
+    <string name="website4"></string>
+    <string name="tweet4"></string>
 </resources>

@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center|top"
-    android:padding="20dp">
+    android:padding="20dp"
+    android:background="#000080">
     <!--tools:context="claire.represent.MainActivity"-->
 
     <LinearLayout
@@ -14,19 +15,27 @@
         android:orientation="horizontal">
 
         <TextView
+            android:layout_marginTop="65dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center|top"
-        android:text="@string/enter_zip_text_view" />
+        android:text="@string/enter_zip_text_view"
+            android:background="#F58A8A"
+            android:textColor="#fff"
+            android:padding="13dp"/>
 
         <EditText
+            android:layout_marginTop="65dp"
             android:layout_width="185dp"
             android:layout_height="wrap_content"
-            android:id="@+id/users_zip_edit_text"/>
+            android:id="@+id/users_zip_edit_text"
+            android:background="#F2F2F2"
+            android:padding="10dp"/>
 
     </LinearLayout>
 
     <LinearLayout
+        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -44,12 +53,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="or"/>
+        android:text="or"
+        android:textColor="#fff"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Use Current Location"
-        android:onClick="useCurrLoc"/>
+        android:onClick="useCurrLoc"
+        android:layout_marginBottom="75dp"/>
+
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:id="@+id/twitter_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
 
 </LinearLayout>

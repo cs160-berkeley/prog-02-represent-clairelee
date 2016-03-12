@@ -67,31 +67,29 @@
                     android:layout_width="wrap_content"
                     android:text="@string/name1"
                     android:textAllCaps="true"
-                    android:textSize="16dp"
                     android:id="@+id/name1"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:layout_margin="10dp" />
+                    android:layout_margin="10dp"
+                    android:textSize="16dp" />
 
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="@string/email1"
-                    android:textSize="10dp"
                     android:autoLink="web"
+                    android:text="@string/email1"
                     android:id="@+id/email1"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="10dp"
-                    />
+                    android:textSize="10dp" />
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text="@string/website1"
-                    android:textSize="10dp"
                     android:autoLink="web"
                     android:id="@+id/website1"
                     android:layout_margin="10dp"
-                    />
+                    android:textSize="10dp" />
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
@@ -157,8 +155,8 @@
                     android:layout_width="wrap_content"
                     android:text="@string/name2"
                     android:textAllCaps="true"
-                    android:id="@+id/name2"
                     android:textSize="16dp"
+                    android:id="@+id/name2"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:layout_margin="10dp" />
 
@@ -166,21 +164,21 @@
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text="@string/email2"
-                    android:textSize="10dp"
                     android:autoLink="web"
                     android:id="@+id/email2"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="10dp"
+                    android:textSize="10dp"
                     />
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="@string/website2"
-                    android:textSize="10dp"
                     android:autoLink="web"
+                    android:text="@string/website2"
                     android:id="@+id/website2"
                     android:layout_margin="10dp"
+                    android:textSize="10dp"
                     />
                 <TextView
                     android:layout_height="wrap_content"
@@ -245,8 +243,8 @@
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="@string/name3"
                     android:textAllCaps="true"
+                    android:text="@string/name3"
                     android:textSize="16dp"
                     android:id="@+id/name3"
                     android:textAppearance="?android:attr/textAppearanceLarge"
@@ -297,6 +295,95 @@
                     android:layout_width="wrap_content"
                     android:text="@string/tweet3"
                     android:id="@+id/tweet3"
+                    android:layout_margin="10dp"
+                    />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F2F2F2"
+                android:rowCount="7"
+                android:columnCount="2"
+                >
+
+                <ImageView
+                    android:layout_height="50dp"
+                    android:layout_width="50dp"
+                    android:src="@drawable/dianne"
+                    android:id="@+id/pic4"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_rowSpan="4"
+                    android:layout_gravity="fill"
+                    />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/type4"
+                    android:id="@+id/type4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="fill_horizontal"
+                    />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/name4"
+                    android:textAllCaps="true"
+                    android:textSize="16dp"
+                    android:id="@+id/name4"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_margin="10dp" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/email4"
+                    android:id="@+id/email4"
+                    android:textSize="10dp"
+                    android:autoLink="web"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/website4"
+                    android:id="@+id/website4"
+                    android:textSize="10dp"
+                    android:autoLink="web"
+                    android:layout_margin="10dp"
+                    />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="MOST RECENT TWEET"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    />
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="SEE MORE"
+                    android:layout_margin="10dp"
+                    android:layout_rowSpan="2"
+                    android:layout_gravity="center"
+                    android:background="#F58A8A"
+                    android:textColor="#F2F2F2"
+                    android:onClick="onSeeMore4"
+                    />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/tweet4"
+                    android:id="@+id/tweet4"
                     android:layout_margin="10dp"
                     />
             </GridLayout>
