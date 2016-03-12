@@ -10,7 +10,7 @@ Claire Lee ([lee.claire@berkeley.edu](mailto:lee.claire@berkeley.edu))
 
 See [2B YouTube] (https://www.youtube.com/watch?v=JFIOdWcdMwM)
 
-See [2C YouTube] (https://www.youtube.com/watch?v=JFIOdWcdMwM)
+See [2C YouTube] (https://www.youtube.com/watch?v=Bw_QOf9qjq0&feature=youtu.be&hd=1)
 
 ## Reference for the grader (2B)
 * Does the video demonstrate all of the screens (Mobile: Main, Congressional, Detailed; Watch: Main, 2012 Vote)? (5 pts) YES
@@ -43,7 +43,6 @@ Incorporating current 2016 election data
 <img src="screenshots/three.png" height="400" alt="Screenshot"/>
 
 <img src="screenshots/error.png" height="400" alt="Screenshot"/>
-<img src="screenshots/error2.png" height="400" alt="Screenshot"/>
 
 ## Acknowledgments
 
