@@ -26,8 +26,8 @@ See [2C YouTube] (https://www.youtube.com/watch?v=JFIOdWcdMwM)
 * Does your app correctly lookup Senator and House Representative data by location? Do you disambiguate cases by zip code where there are multiple representatives? (5 points) YES!!
 * Does your app use the APIs to get and display the required data for each congressperson: full name, their party (Democrat, Republican, Independent), email (with link), website (with link), on both the phone and watch? (10 points) ON PHONE YES, WATCH IF YOU LOOK AT THE CODE IT SHOULD POPULATE CORRECTLY, BUT UNFORTUNATELY NOTHING SHOWS UP ON WATCH INTERFACE DUE TO UNKNOWN BUG
 * Does your app correctly display the last Tweet and a photo for each congressperson on the phone? (5 points) PHOTO YES BUT NO TWEET
-* Does your app correctly lookup the State and County (from the current location/zip code) and display the correct election results for the 2012 Obama/Romney percentages on the watch? (10 points) GRABS THE COUNTY (This took a long time would definitely appreciate some points..Stopped doing county because impossible to check without my watch interfae working))
-* * 4 of these points are from updating the information via a random location on a watch shake. LOOK AT CODE FOR SHAKE :-)) IS WELL IMPLEMENTED
+* Does your app correctly lookup the State and County (from the current location/zip code) and display the correct election results for the 2012 Obama/Romney percentages on the watch? (10 points) GRABS THE COUNTY (This took a long time would definitely appreciate some points..Stopped doing county because impossible to check without my watch interface working))
+  * 4 of these points are from updating the information via a random location on a watch shake. LOOK AT CODE FOR SHAKE :-)) IS WELL IMPLEMENTED
 * Design: Does your app make good use of visual elements and an intuitive, easy-to-use interaction flow? (15 points) 
 A part of this grade is on iteration: If you made any design changes from Prog2A, please describe them (with before/after screenshots + text) in your PDF.
 * Documentation: narrated video, github updated with new APKs, PDF contains screenshots + descriptions of the app (3 pts) YES
